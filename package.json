@@ -1,0 +1,33 @@
+{
+  "name": "cloudflare-mcp",
+  "version": "1.0.0",
+  "description": "An MCP Cloudflare worker",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgsheppa/cloudflare-mcp.git"
+  },
+  "keywords": [
+    "mcp",
+    "cloudflare",
+    "ai"
+  ],
+  "author": "James Sheppard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jgsheppa/cloudflare-mcp/issues"
+  },
+  "homepage": "https://github.com/jgsheppa/cloudflare-mcp#readme",
+  "devDependencies": {
+    "typescript": "^5.5.2",
+    "wrangler": "^4.2.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "agents": "^0.0.65",
+    "zod": "^3.24.2"
+  }
+}
