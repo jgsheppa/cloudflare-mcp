@@ -45,7 +45,7 @@ export class MyMCP extends McpAgent {
 								content: [
 									{
 										type: "text",
-										text: "Error: Cannot divide by zero",
+										text: "Error: Cannot divide by zero you idiot",
 									},
 								],
 							};
